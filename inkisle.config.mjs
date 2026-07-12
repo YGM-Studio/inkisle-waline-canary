@@ -1,14 +1,14 @@
 export default {
-  title: "InkIsle Canary",
+  title: "InkIsle Waline Canary",
   description: {
-    zh: "使用 npm 正式版本构建的 InkIsle 外部验收站。",
-    en: "An external acceptance site built from the published InkIsle npm package."
+    zh: "使用 npm 正式版本和 Waline 构建的 InkIsle 外部验收站。",
+    en: "An external InkIsle acceptance site using the published npm package and Waline."
   },
   site: "https://ygm-studio.github.io",
-  base: "/inkisle-canary",
+  base: "/inkisle-waline-canary",
   brand: {
-    mark: "Canary",
-    subtitle: "Published package acceptance",
+    mark: "Waline",
+    subtitle: "Waline provider acceptance",
     favicon: "/favicon.svg"
   },
   author: {
@@ -16,19 +16,17 @@ export default {
     url: "https://github.com/YGM-Studio"
   },
   interactions: {
-    provider: "giscus",
+    provider: "waline",
     localeScope: "shared",
-    giscus: {
-      repo: "YGM-Studio/inkisle",
-      repoId: "R_kgDOSSLLLg",
-      category: "InkIsle Blog",
-      categoryId: "DIC_kwDOSSLLLs4DBBG_"
+    waline: {
+      serverURL: "https://inkisle-waline-lab.vercel.app",
+      reaction: true
     }
   },
   theme: {
     name: "personal",
     defaultMode: "system",
     allowUserToggle: true,
-    storageKey: "inkisle-canary-theme"
+    storageKey: "inkisle-waline-canary-theme"
   }
 };

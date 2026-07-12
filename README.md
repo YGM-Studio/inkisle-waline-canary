@@ -1,4 +1,4 @@
-# InkIsle Canary
+# InkIsle Waline Canary
 
 This repository is the external acceptance site for published InkIsle npm
 releases. It intentionally contains only user-facing content and configuration;
@@ -9,9 +9,10 @@ source repository.
 
 - `inkisle` installs at the exact version declared in `package.json`.
 - A content-only project passes InkIsle checks and builds without renderer source.
-- Internal links remain valid under the `/inkisle-canary` GitHub Pages base path.
-- The personal theme loads Giscus comments and reactions from the main InkIsle
-  repository.
+- Internal links remain valid under the `/inkisle-waline-canary` GitHub Pages
+  base path.
+- The personal theme loads comments and reactions from the dedicated Waline
+  Vercel and Neon lab.
 
 ## Commands
 

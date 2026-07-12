@@ -1,13 +1,13 @@
 ---
-title: "InkIsle npm Canary"
+title: "InkIsle Waline Canary"
 date: 2026-07-12
 updated: 2026-07-12
-summary: "从 npm 正式版本安装、构建并部署的独立 InkIsle 验收站。"
+summary: "从 npm 正式版本安装，并使用 Waline 验证点赞与留言的独立 InkIsle 验收站。"
 tags:
   - InkIsle
   - Canary
 category: "Validation"
-interactionId: "npm-canary"
+interactionId: "waline-canary"
 published: true
 ---
 
@@ -17,9 +17,9 @@ published: true
 
 - content-only 项目初始化与依赖安装。
 - Markdown、多语言、RSS、搜索索引和 `llms.txt` 静态输出。
-- GitHub Pages `/inkisle-canary` 子路径。
-- personal 主题、明暗模式，以及由 Giscus 提供的共享点赞与留言。
+- GitHub Pages `/inkisle-waline-canary` 子路径。
+- personal 主题、明暗模式，以及由 Waline 提供的共享点赞与留言。
 
 ## 互动数据
 
-中英文页面使用同一个 `npm-canary` 互动标识。这里的留言保存在主仓库的 `InkIsle Blog` Discussions 分类，用于发现正式 npm 包与源码主线之间的行为差异。
+中英文页面使用同一个 `waline-canary` 互动标识。留言保存在独立的 Neon 数据库中，服务端由 Vercel 托管，用于验证 Waline provider 与正式 npm 包的集成行为。
